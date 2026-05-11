@@ -1,63 +1,412 @@
 <!DOCTYPE html>
-            <div class="box">
-                <h3>Visa Assistance</h3>
-                <p>Expert visa processing support with high success rates.</p>
-            </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="GLOBAL BRIDGE Educational Consultancy - Your trusted partner for studying abroad. Expert counseling, visa assistance, and scholarship guidance."/>
+  <meta name="keywords" content="study abroad, education consultancy, visa guidance, scholarship, IELTS, PTE"/>
+  <meta name="author" content="GLOBAL BRIDGE"/>
+  <title>GLOBAL BRIDGE | Study Abroad Consultancy</title>
 
-            <div class="box">
-                <h3>IELTS & PTE</h3>
-                <p>Preparation guidance for language proficiency tests.</p>
-            </div>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ========== NAVIGATION BAR ========== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="#home">
+          <img src="logo.png" alt="GLOBAL BRIDGE Logo" onerror="this.src='https://placehold.co/400x120/0f67ff/white?text=🌍+GLOBAL+BRIDGE'"/>
+        </a>
+      </div>
+      
+      <nav id="navMenu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#countries" class="nav-link">Destinations</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="hero-badge">✨ 15+ Years of Excellence</span>
+        <h1>Your Gateway To <span class="gradient-text">Global Education</span></h1>
+        <p>Helping students achieve their dreams of studying abroad with expert counseling, visa guidance, and scholarship support. 95% visa success rate!</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn primary-btn">
+            <i class="fa-solid fa-graduation-cap"></i> Apply Now
+          </a>
+          <a href="#countries" class="btn secondary-btn">
+            <i class="fa-solid fa-globe"></i> Explore Universities
+          </a>
         </div>
-    </section>
-
-    <!-- Study Destinations -->
-    <section class="destinations" id="destinations">
-        <h2>Study Destinations</h2>
-
-        <div class="countries">
-            <div class="country">🇬🇧 UK</div>
-            <div class="country">🇦🇺 Australia</div>
-            <div class="country">🇨🇦 Canada</div>
-            <div class="country">🇺🇸 USA</div>
-            <div class="country">🇳🇿 New Zealand</div>
+        <div class="hero-stats">
+          <div><strong>100+</strong> Students Placed</div>
+          <div><strong>50+</strong> Universities</div>
+          <div><strong>95%</strong> Visa Success</div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <h2>Student Success Stories</h2>
+  <!-- ========== STATS SECTION ========== -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <i class="fa-solid fa-user-graduate"></i>
+        <h2><span class="counter" data-target="100">0</span>+</h2>
+        <p>Students Guided</p>
+      </div>
+      <div class="stat-card">
+        <i class="fa-solid fa-building-columns"></i>
+        <h2><span class="counter" data-target="85">0</span>+</h2>
+        <p>Partner Universities</p>
+      </div>
+      <div class="stat-card">
+        <i class="fa-solid fa-passport"></i>
+        <h2><span class="counter" data-target="98">0</span>%</h2>
+        <p>Visa Success Rate</p>
+      </div>
+      <div class="stat-card">
+        <i class="fa-solid fa-map-location-dot"></i>
+        <h2><span class="counter" data-target="20">0</span>+</h2>
+        <p>Study Destinations</p>
+      </div>
+    </div>
+  </section>
 
-        <div class="testimonial-boxes">
-            <div class="testimonial">
-                <p>“Excellent guidance and smooth visa process. Highly recommended!”</p>
-                <h4>- Aayush</h4>
-            </div>
-
-            <div class="testimonial">
-                <p>“I got admission in UK with scholarship support. Thank you!”</p>
-                <h4>- Sneha</h4>
-            </div>
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop" alt="Students studying abroad"/>
+        <div class="experience-badge">
+          <span>15+</span>
+          <p>Years of Excellence</p>
         </div>
-    </section>
+      </div>
+      <div class="about-text">
+        <span class="section-tag">Who We Are</span>
+        <h2>About <span class="gradient-text">GLOBAL BRIDGE</span></h2>
+        <p>GLOBAL BRIDGE Educational Consultancy is dedicated to guiding students toward world-class educational opportunities abroad. We provide end-to-end support from university selection to post-landing assistance.</p>
+        <div class="feature-list">
+          <div class="feature-box">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Expert Career Counseling & Profile Building</span>
+          </div>
+          <div class="feature-box">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Scholarship & Financial Aid Guidance</span>
+          </div>
+          <div class="feature-box">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Complete Visa Documentation Support</span>
+          </div>
+          <div class="feature-box">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Pre-departure Orientation & Accommodation</span>
+          </div>
+        </div>
+        <a href="#contact" class="btn primary-btn-outline">Learn More →</a>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <h2>Contact Us</h2>
+  <!-- ========== SERVICES SECTION ========== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-title">
+        <span class="section-tag">What We Offer</span>
+        <h2>Our <span class="gradient-text">Services</span></h2>
+        <p>Complete support for your study abroad journey from start to finish.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>University Admission</h3>
+          <p>Guidance for selecting top universities and courses matching your profile.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-passport"></i></div>
+          <h3>Visa Assistance</h3>
+          <p>Professional visa documentation, interview prep, and submission support.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-award"></i></div>
+          <h3>Scholarship Guidance</h3>
+          <p>Find and apply for scholarships, grants, and financial aid programs.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-book-open"></i></div>
+          <h3>IELTS / PTE Prep</h3>
+          <p>Expert-led preparation classes for English proficiency tests.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-users"></i></div>
+          <h3>Interview Preparation</h3>
+          <p>Mock interviews and confidence-building sessions for university/visa.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-plane"></i></div>
+          <h3>Pre-Departure Support</h3>
+          <p>Travel guidance, accommodation, and post-landing assistance.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message"></textarea>
-            <button type="submit">Send Message</button>
+  <!-- ========== COUNTRIES SECTION ========== -->
+  <section class="countries" id="countries">
+    <div class="container">
+      <div class="section-title">
+        <span class="section-tag">Where You Can Go</span>
+        <h2>Popular Study <span class="gradient-text">Destinations</span></h2>
+        <p>Choose from 20+ countries with top-ranked universities</p>
+      </div>
+      <div class="countries-grid">
+        <div class="country-card" data-country="Australia">
+          <i class="fa-solid fa-flag-checkered"></i>
+          <h3>Australia</h3>
+          <span>200+ Universities</span>
+        </div>
+        <div class="country-card" data-country="Canada">
+          <i class="fa-solid fa-maple-leaf"></i>
+          <h3>Canada</h3>
+          <span>150+ Institutions</span>
+        </div>
+        <div class="country-card" data-country="UK">
+          <i class="fa-solid fa-crown"></i>
+          <h3>United Kingdom</h3>
+          <span>130+ Universities</span>
+        </div>
+        <div class="country-card" data-country="USA">
+          <i class="fa-solid fa-flag-usa"></i>
+          <h3>USA</h3>
+          <span>400+ Universities</span>
+        </div>
+        <div class="country-card" data-country="Japan">
+          <i class="fa-solid fa-torii-gate"></i>
+          <h3>Japan</h3>
+          <span>100+ Institutions</span>
+        </div>
+        <div class="country-card" data-country="New Zealand">
+          <i class="fa-solid fa-leaf"></i>
+          <h3>New Zealand</h3>
+          <span>50+ Institutions</span>
+        </div>
+        <div class="country-card" data-country="Cyprus">
+          <i class="fa-solid fa-sun"></i>
+          <h3>Cyprus</h3>
+          <span>40+ Programs</span>
+        </div>
+        <div class="country-card" data-country="Malta">
+          <i class="fa-solid fa-water"></i>
+          <h3>Malta</h3>
+          <span>30+ Institutions</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS SECTION ========== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-title">
+        <span class="section-tag">Success Stories</span>
+        <h2>What Our <span class="gradient-text">Students Say</span></h2>
+        <p>Real experiences from students who achieved their dreams with us</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>"GLOBAL BRIDGE made my dream of studying in Canada a reality. Their visa guidance was exceptional!"</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Student">
+            <div>
+              <h4>Priya Sharma</h4>
+              <span>University of Toronto, Canada</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>"The team helped me secure a full scholarship to UK. Highly recommended for study abroad consultancy."</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Student">
+            <div>
+              <h4>Rahul Thapa</h4>
+              <span>King's College London, UK</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>"Professional, transparent, and supportive. Got my Australian student visa in just 2 weeks!"</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Student">
+            <div>
+              <h4>Sunita Gurung</h4>
+              <span>University of Melbourne, Australia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA SECTION ========== -->
+  <section class="cta">
+    <div class="container">
+      <h2>Start Your Study Abroad Journey Today</h2>
+      <p>Get expert counseling from experienced professionals. First consultation is <strong>FREE</strong>!</p>
+      <a href="#contact" class="btn cta-btn">
+        <i class="fa-solid fa-calendar-check"></i> Book Free Counseling
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Contact <span class="gradient-text">Us</span></h2>
+        <p>Reach out for personalized counseling. We're here to help you 24/7.</p>
+        <div class="contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <strong>Visit Us</strong>
+            <p>Putalisadak, Kathmandu, Nepal</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <strong>Call Us</strong>
+            <p>+977-9810117027</p>
+            <p>+977-1-5365465</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <strong>Email Us</strong>
+            <p>info@globalbridge.com</p>
+            <p>support@globalbridge.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-clock"></i>
+          <div>
+            <strong>Working Hours</strong>
+            <p>Mon-Fri: 9:00 AM - 6:00 PM</p>
+            <p>Sat: 10:00 AM - 4:00 PM</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form id="inquiryForm">
+          <div class="form-group">
+            <input type="text" id="fullName" placeholder="Your Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="emailAdd" placeholder="Your Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phoneNumber" placeholder="Your Phone Number">
+          </div>
+          <div class="form-group">
+            <input type="text" id="prefCountry" placeholder="Preferred Country">
+          </div>
+          <div class="form-group">
+            <textarea id="messageArea" placeholder="Your Message" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn primary-btn submit-btn">
+            <i class="fa-solid fa-paper-plane"></i> Send Inquiry
+          </button>
+          <p class="form-note">We'll respond within 24 hours</p>
         </form>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Global Bridge Consultancy. All Rights Reserved.</p>
-    </footer>
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <img src="logo.png" alt="Logo" onerror="this.style.display='none'">
+          <h3>GLOBAL BRIDGE</h3>
+          <p>Empowering students for global success through quality education consultancy.</p>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#countries">Destinations</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">University Admission</a></li>
+            <li><a href="#">Visa Assistance</a></li>
+            <li><a href="#">Scholarship Guidance</a></li>
+            <li><a href="#">IELTS/PTE Prep</a></li>
+            <li><a href="#">Pre-departure Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Subscribe for study abroad updates</p>
+          <form id="newsletterForm">
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 GLOBAL BRIDGE Educational Consultancy. All rights reserved.</p>
+        <p>Designed with <i class="fa-solid fa-heart"></i> for global education</p>
+      </div>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
